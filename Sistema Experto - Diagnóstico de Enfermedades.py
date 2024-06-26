@@ -1,11 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox
 
+# Creación de la interfaz
 class SistemaExpertoGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Sistema Experto de Diagnóstico Médico (3ra Edad)")
-        
+	# Establecer base de conocimiento
         self.base_de_conocimiento = {
             'fiebre': ['gripe', 'infección urinaria'],
             'tos': ['gripe', 'bronquitis'],
